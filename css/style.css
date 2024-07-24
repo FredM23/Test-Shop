@@ -1,0 +1,38 @@
+/* Fonts */
+@font-face {
+  font-family: "lalezar";
+  src: url(../assest/fonts/Lalezar.ttf);
+}
+
+@font-face {
+  font-family: "yekan";
+  src: url(../assest/fonts/Yekan.ttf);
+}
+
+/* Basic */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "yekan";
+  background-color: #141313;
+  color: #ebeaea;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
