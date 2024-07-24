@@ -36,3 +36,73 @@ ul {
   max-width: 1200px;
   margin: 0 auto;
 }
+
+/* header */
+.header {
+  background-color: orange;
+}
+
+.header nav {
+  color: black;
+  padding: 10px 0;
+  font-size: 20px;
+  font-family: "lalezar";
+  text-align: center;
+}
+
+.hero-img {
+  background-color: #141313;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0 10px;
+}
+
+.hero-img img {
+  max-width: 100%;
+}
+
+/* Product */
+.katooni-section {
+  padding: 16px 0;
+}
+.section-title {
+  color: orange;
+  font-size: 40px;
+}
+.katooni-wrraper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.katooni-item-col {
+  padding: 16px;
+  width: 100%;
+}
+.katooni-card {
+  border: 1px solid #b9b9b9;
+  background: #232222;
+  border-radius: 15px;
+  color: #b9b9b9;
+}
+.card-header img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px 15px 0 0;
+}
+.card-body {
+  padding: 20px 10px;
+}
+
+/* footer */
+.footer {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: orange;
+  color: black;
+  font-size: 30px;
+}
+
+.footer span {
+  color: blue;
+}
